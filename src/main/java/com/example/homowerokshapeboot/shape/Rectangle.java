@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Rectangle implements Shape {
     @Override
     public double calculateArea() {
-        System.out.println("Liczymy pole prostoka! Podaj boki a oraz b: ");
+        System.out.println("Liczymy pole prostota! Podaj boki a oraz b: ");
         System.out.println("Podaj a: ");
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
